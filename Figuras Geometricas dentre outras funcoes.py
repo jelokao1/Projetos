@@ -1,3 +1,10 @@
+#Autor: Félix Licht and Samuel Araujo
+#Inicio do projeto: 10/09/2016
+#Tema: Calcular Perimetro e areas de fuguras geometricas
+#Calcular equações de segundo grau
+#Dentre outras ferramentas que serão implatadas
+#python 3.5
+
 import math
 
     #Perimetro
