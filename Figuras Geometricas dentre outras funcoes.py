@@ -354,18 +354,17 @@ elif (ope == '03' or ope == '3'):
     a = int(input("Informe A "))
     b = int(input("Informe B "))
     c = int(input("Informe C "))
-    equa = (a**2) + b + c
     print("\nA equacao fica: ")
-    print(a,"x²+",b ,"x+",c ,"=", equa   )
+    print(a,"x²+",b,"x+",c,"= 0")
 
     #Delta = b²-4ac
     delta = (b**2) - 4*a*c
-    print("\n Delta vale = %.2f" %delta)
+    print("\n Delta vale = %1.0f" %delta)
     if(delta < 0):
-        print("\nDELTA NAO PODE SER MENOR QUE '0' ")
+        print("\nDELTA NÃO PODE SER MENOR QUE '0' ")
     else:
         x1 = ((-1 * b) + (math.sqrt (delta)))/(2*a)
-        print ("x1 vale %.2f " %x1)
+        print ("x¹ vale %2.2f " %x1)
         x2 = ((-1 * b) - (math.sqrt (delta)))/(2*a)
-        print("x2 vale %2.f " % x2)
+        print("x² vale %2.2f " %x2)
 
